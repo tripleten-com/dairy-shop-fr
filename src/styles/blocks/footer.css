@@ -1,0 +1,20 @@
+.footer {
+  min-width: 300px;
+  padding: 100px 0;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.footer__tel {
+  margin: 0;
+  padding: 0;
+  font-size: 28px;
+}
+
+.footer__mail {
+  margin: 0;
+  padding: 0;
+  font-size: 28px;
+}

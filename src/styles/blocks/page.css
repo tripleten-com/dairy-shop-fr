@@ -1,0 +1,23 @@
+.page {
+  background-color: white;
+  color: black;
+  font-family: 'Inter';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.page__content {
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column;
+}
+
+.page__section {
+  width: 100%;
+  max-width: 1000px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  position: relative;
+  margin: 0 auto;
+}

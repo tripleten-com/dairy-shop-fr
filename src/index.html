@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="<%=require('./images/favicon.svg')%>" />
+    <title>DAIRYLAND Store</title>
+  </head>
+  <body class="page">
+    <div class="page__content">
+      <header class="header page__section">
+        <img
+          src="<%=require('./images/logo.png')%>"
+          alt="Tierra de lácteos."
+          class="logo" />
+      </header>
+      <main class="content page__section">
+        <h1 class="content__title">High quality, local producers</h1>
+        <section class="products page__section">
+          <ul class="cards">
+            <!-- Render cards here -->
+          </ul>
+        </section>
+      </main>
+      <footer class="footer">
+        <p class="footer__tel">+7-800-230-00-00</p>
+        <p class="footer__mail">dairyland@store.com</p>
+      </footer>
+    </div>
+
+    <!-- Card template -->
+    <template id="card-template">
+      <li class="card">
+        <img src="" alt="" class="card__image" />
+        <p class="t754__title t-name t-name_md js-product-name"></p>
+        <p class="t754__price-value js-product-price">$4.23</p>
+      </li>
+    </template>
+  </body>
+</html>
